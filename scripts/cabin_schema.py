@@ -45,7 +45,7 @@ LABELS = {
         "seat": SEATS,
         "seatbelt": ["unknown", "worn_correct", "worn_incorrect", "not_worn"],
     }),
-    "child_seat": ("rectangle", {"seat": SEATS, "occupied": ["unknown", "no"]}),
+    "child_seat": ("rectangle", {"seat": SEATS, "occupied": ["unknown", "no", "yes"]}),
     "infant_seat": ("rectangle", {"seat": SEATS, "facing": ["rear", "front"]}),
     "object": ("rectangle", {"seat": SEATS, "type": ["other", "bag", "box", "cup"]}),
     "frame_meta": ("tag", {
