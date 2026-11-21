@@ -4,4 +4,4 @@ Kết quả: 0 lỗi, 0 cảnh báo. Cảnh báo cần bạn tự xét, không t
 
 Ghi chú:
 - Cảnh S02 (S02_rgb, S02_ir) có trẻ em ngồi trong ghế trẻ em: gán child_seat, occupied=yes theo chỉ dẫn của coach. Coach xác nhận sửa scripts/cabin_schema.py (dòng 48) để chấp nhận occupied=yes. Trước khi sửa script báo 2 lỗi occupied=yes ở S02; sau khi sửa: 0 lỗi.
-- Review chéo với Lê Quang Vinh phát hiện thêm lỗi script không bắt được (S02_ir modality=rgb, light=night ở D01–D06, object trên D04/D06...). Đã sửa trong export_final_v2.zip, xem check_final_v2.txt và disagreement_log.csv.
+- Review chéo với Lê Quang Vinh phát hiện thêm lỗi script không bắt được (S02_ir modality=rgb, light=night ở D01–D06, nôi em bé facing, thiếu cốc S05/S06...). Đã sửa trong export_final_v2.zip, xem check_final_v2.txt và disagreement_log.csv.

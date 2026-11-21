@@ -9,9 +9,10 @@ Mã bộ ảnh: **G09** · Hình thức: cá nhân (review chéo với bạn cù
 Ca hai bạn vẫn không thống nhất và đã hỏi coach (ghi tên ảnh + đối tượng):
 
 - G09 S02_rgb, S02_ir · `child_seat` ở ghế rear_left có trẻ em ngồi. Coach cho thêm giá trị `occupied = yes` và xác nhận sửa `scripts/cabin_schema.py` để `cabin_check` chấp nhận `yes`. Không vẽ thêm `person` cho trẻ.
+- G09 D04, D06 · box `object` cho chai nước trên tay tài xế (cả hai cùng vẽ, guideline 4.2 ghi DMS không vẽ `object`). Coach xác nhận giữ.
 
 ## Cá nhân
 
 ### NguyenXuanLam-2A202604051
-- Phần mình làm (ngoài 22 ảnh của mình): chạy `cabin_check diff` giữa bài của mình và bài của Lê Quang Vinh, cùng Vinh xử lý 67 dòng khác nhau trong `disagreement_log.csv`, sửa bài và export `export_final_v2.zip`; hỏi coach ca S02.
+- Phần mình làm (ngoài 22 ảnh của mình): chạy `cabin_check diff` giữa bài của mình và bài của Lê Quang Vinh, cùng Vinh xử lý 67 dòng khác nhau trong `disagreement_log.csv`, sửa bài và export `export_final_v2.zip`; hỏi coach ca S02 (trẻ em ngồi ghế trẻ em) và D04, D06 (chai trên tay).
 - Điều mình học được hôm nay: Ghế phải gọi theo xe chứ không theo ảnh, trái/phải mắt và tay gọi theo người kể cả khi ảnh xoay 90°; không thấy thì ghi `unknown` thay vì đoán; và hai người gán giống nhau chỉ chứng tỏ nhất quán, không chứng tỏ đúng (cả hai đã cùng vẽ thừa `object` ở D04, D06).

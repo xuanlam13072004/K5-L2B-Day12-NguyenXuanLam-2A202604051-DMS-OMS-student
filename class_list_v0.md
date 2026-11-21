@@ -33,4 +33,4 @@ Viết tiếp từ slide 54 bài giảng. Mỗi lớp trả lời: **model cần
    Bạn tạm gán thế nào và vì sao: Gán `child_seat`, `occupied = yes`, không vẽ `person` cho trẻ, theo chỉ dẫn của coach trong buổi (coach cho thêm giá trị `yes` và sửa script `cabin_check` để chấp nhận).
 2. Câu hỏi: Tài xế cầm chai nước hoặc cốc trên tay thì có cần gán vật đó không? Guideline 4.2 ghi DMS không vẽ `object`, nhưng chức năng DMS có thể cần phân biệt "uống nước" với "dùng điện thoại" để không báo động nhầm.
    Khung ví dụ: G09 D04, D06
-   Bạn tạm gán thế nào và vì sao: Tạm giữ box `object` (type `other`) cho chai trên tay ở D04, D06, vì vật này rõ và có ích để phân biệt "uống nước" với "dùng điện thoại". Biết là trái với guideline 4.2 nên cần coach hoặc người viết guideline quyết định: xóa đi, hay thêm lớp `drink` cho DMS. Bạn review chéo cũng vẽ giống vậy.
+   Bạn tạm gán thế nào và vì sao: Giữ box `object` (type `other`) cho chai trên tay ở D04, D06. Mình đã hỏi coach và coach xác nhận giữ, vì vật này có ích để phân biệt "uống nước" với "dùng điện thoại". Đề xuất cập nhật guideline 4.2 (bản 1.x) cho rõ: cho phép `object` ở DMS, hoặc thêm lớp `drink`.

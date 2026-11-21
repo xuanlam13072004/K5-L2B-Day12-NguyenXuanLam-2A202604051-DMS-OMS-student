@@ -8,7 +8,7 @@ Loại lỗi: `seat_flip`, `wrong_class`, `guess`, `box`, `missing`, `extra`, `l
 |---|---|---|---|---|
 | S02_ir | frame_meta | guess | `modality` để `rgb` cho ảnh `_ir` (quên đổi khi copy từ ảnh RGB sang). Script `cabin_check` không bắt được, review chéo mới phát hiện | Có (v2) |
 | S04_rgb | infant_seat | guess | `facing` để giá trị mặc định `rear`, thực tế lòng nôi hướng về camera nên là `front` (cùng lỗi ở S01, S03, S04 cả rgb và ir) | Có (v2) |
-| D04 | object | extra (chưa chắc) | Có box `object` cho chai nước trên tay tài xế. Guideline 4.2 ghi DMS không vẽ `object`; mình giữ lại và đưa vào câu hỏi leo thang để hỏi coach. Mắt và `gaze_zone` xem lại thấy đúng nên giữ | Chưa (chờ coach) |
+| D04 | object, face | ok | Có box `object` cho chai nước trên tay tài xế. Guideline 4.2 ghi DMS không vẽ `object`, mình đã hỏi coach và coach xác nhận giữ. Mắt (`unknown` do lóa kính) và `gaze_zone` xem lại thấy đúng | Không cần sửa (coach xác nhận) |
 | D06 | face | box | Box mặt ban đầu ôm cả đầu và tóc (rộng 280 px), đúng ra chỉ từ trán đến cằm, tai đến tai. Đã thu lại còn 177 px | Có (v2) |
 
 ## 2. Lỗi mình lặp lại nhiều nhất hôm nay

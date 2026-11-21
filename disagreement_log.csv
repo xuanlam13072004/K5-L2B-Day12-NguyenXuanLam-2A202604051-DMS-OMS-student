@@ -64,5 +64,5 @@ S05_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.2 + 4.8,"�
 S05_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.4-1,"Trên ảnh RGB cốc nằm trong vùng tối, không nhìn thấy (đã thử tăng sáng): không vẽ. Không suy từ ảnh IR của cùng cảnh. Peer xóa box cup ở ảnh RGB"
 S06_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.2 + 4.8,"Ảnh IR thấy rõ cốc: mình thêm box object type=cup, seat theo xe"
 S06_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.2 + 4.8,"Ảnh RGB S06 vẫn thấy cốc: mình thêm box object type=cup, seat=rear_right"
-D04.png,object,box,cả hai cùng vẽ (diff không phát hiện),có,có,ambiguous,4.2,"Cả hai vẽ object cho chai trên tay. Guideline 4.2 ghi DMS không vẽ object, nhưng mình giữ nguyên và đưa vào câu hỏi leo thang 2 trong class_list_v0.md để hỏi coach"
-D06.png,object,box,cả hai cùng vẽ (diff không phát hiện),có,có,ambiguous,4.2,"Cả hai vẽ object cho chai trên tay. Guideline 4.2 ghi DMS không vẽ object, nhưng mình giữ nguyên và đưa vào câu hỏi leo thang 2 trong class_list_v0.md để hỏi coach"
+D04.png,object,box,"cả hai cùng vẽ (diff không phát hiện), đã hỏi coach",có,có,mine,4.2 (coach quyết định),"Cả hai cùng vẽ object cho chai trên tay. Guideline 4.2 ghi DMS không vẽ object, nhưng coach xác nhận giữ 2 box này: không sửa"
+D06.png,object,box,"cả hai cùng vẽ (diff không phát hiện), đã hỏi coach",có,có,mine,4.2 (coach quyết định),"Cả hai cùng vẽ object cho chai trên tay. Guideline 4.2 ghi DMS không vẽ object, nhưng coach xác nhận giữ 2 box này: không sửa"
