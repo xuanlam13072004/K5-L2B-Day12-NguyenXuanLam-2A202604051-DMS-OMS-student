@@ -1,0 +1,68 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,frame_meta,light,khác giá trị,night,unknown,peer,4.4-1,"Đổi light về unknown: ảnh NIR có đèn hồng ngoại riêng, nền tối không chứng minh là ban đêm"
+D01.png,face,eye_left,khác giá trị (IoU=0.91),unknown,open,mine,4.5 + 4.4-1,"Kính cận bị lóa đèn LED che khe mắt, không phân biệt được mở hay nhắm: giữ unknown. Peer đổi open thành unknown"
+D01.png,face,eye_right,khác giá trị (IoU=0.91),unknown,open,mine,4.5 + 4.4-1,"Kính cận bị lóa đèn LED che khe mắt, không phân biệt được mở hay nhắm: giữ unknown. Peer đổi open thành unknown"
+D01.png,face,gaze_zone,khác giá trị (IoU=0.91),road,other,mine,4.5,Tài xế nhìn qua kính chắn gió phía trước: road. Peer đổi other thành road
+D01.png,face,glasses,khác giá trị (IoU=0.91),none,clear,peer,4.5,Tài xế đeo kính cận: mình đổi none thành clear (ghi none cho người đeo kính là lỗi nặng)
+D01.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+D01.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+D01.png,face13,right_eye_outer.outside,khác cờ,1,0,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+D01.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+D01.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+D01.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+D01.png,face13,mouth_right.outside,khác cờ,1,0,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+D02.png,frame_meta,light,khác giá trị,night,unknown,peer,4.4-1,"Đổi light về unknown: ảnh NIR có đèn hồng ngoại riêng, nền tối không chứng minh là ban đêm"
+D02.png,face,gaze_zone,khác giá trị (IoU=0.77),road,other,mine,4.5,Tài xế nhìn qua kính chắn gió phía trước: road. Peer đổi other thành road
+D02.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+D02.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+D03.png,frame_meta,light,khác giá trị,night,unknown,peer,4.4-1,"Đổi light về unknown: ảnh NIR có đèn hồng ngoại riêng, nền tối không chứng minh là ban đêm"
+D03.png,face,gaze_zone,khác giá trị (IoU=0.94),road,other,mine,4.5,Tài xế nhìn qua kính chắn gió phía trước: road. Peer đổi other thành road
+D04.png,frame_meta,light,khác giá trị,night,unknown,peer,4.4-1,"Đổi light về unknown: ảnh NIR có đèn hồng ngoại riêng, nền tối không chứng minh là ban đêm"
+D04.png,face,eye_left,khác giá trị (IoU=0.71),unknown,open,mine,4.5 + 4.4-1,"Xem lại: mắt bị lóa kính, không chắc là mở: giữ unknown (khớp cờ occluded ở các điểm mắt trái)"
+D04.png,face,gaze_zone,khác giá trị (IoU=0.71),mirror_r,other,mine,4.5,Xem lại: giữ mirror_r. Peer để other (mặc định)
+D04.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.45,,ambiguous,4.1 + 4.4-5,"Cả hai box đều khá sát, chỉ khác mép cổ tay: giữ nguyên"
+D04.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,ambiguous,4.1 + 4.4-5,"Cả hai box đều khá sát, chỉ khác mép cổ tay: giữ nguyên"
+D04.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+D04.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+D04.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+D04.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+D04.png,face13,mouth_right.outside,khác cờ,1,0,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+D05.png,frame_meta,light,khác giá trị,night,unknown,peer,4.4-1,"Đổi light về unknown: ảnh NIR có đèn hồng ngoại riêng, nền tối không chứng minh là ban đêm"
+D06.png,frame_meta,light,khác giá trị,night,unknown,peer,4.4-1,"Đổi light về unknown: ảnh NIR có đèn hồng ngoại riêng, nền tối không chứng minh là ban đêm"
+D06.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.41,,peer,4.5 + 4.4-5,"Box mặt của mình ôm cả đầu (có tóc). Mình thu box lại từ trán đến cằm, tai đến tai"
+D06.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.5 + 4.4-5,"Box mặt của mình ôm cả đầu (có tóc). Mình thu box lại từ trán đến cằm, tai đến tai"
+D06.png,face13,right_eye_outer.outside,khác cờ,1,0,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+D06.png,face13,right_eye_inner.outside,khác cờ,1,0,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+D06.png,face13,right_eye_upper.occluded,khác cờ,0,1,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+D06.png,face13,right_eye_upper.outside,khác cờ,1,0,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+D06.png,face13,right_eye_lower.occluded,khác cờ,0,1,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+D06.png,face13,right_eye_lower.outside,khác cờ,1,0,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+D06.png,face13,mouth_right.outside,khác cờ,1,0,mine,4.6,"Sau khi xem lại, giữ cờ của mình (điểm bị lóa kính hoặc bị che). Peer xem lại cờ theo 4.6"
+S01_ir.png,infant_seat,facing,khác giá trị (IoU=0.79),rear,front,peer,4.1 (infant_seat.facing),Lòng nôi hướng về camera = front. Mình đổi rear thành front (lỗi quên đổi giá trị mặc định)
+S01_rgb.png,infant_seat,facing,khác giá trị (IoU=0.97),rear,front,peer,4.1 (infant_seat.facing),Lòng nôi hướng về camera = front. Mình đổi rear thành front (lỗi quên đổi giá trị mặc định)
+S02_ir.png,frame_meta,modality,khác giá trị,rgb,ir,peer,4.3-1,Sửa modality của S02_ir từ rgb thành ir (ảnh _ir là ir)
+S02_ir.png,face,gaze_zone,khác giá trị (IoU=0.79),other,road,mine,4.1,Ảnh OMS: face chỉ cần box; peer đổi thuộc tính về mặc định (unknown/other)
+S02_ir.png,face,glasses,khác giá trị (IoU=0.79),unknown,none,mine,4.1,Ảnh OMS: face chỉ cần box; peer đổi thuộc tính về mặc định (unknown/other)
+S02_ir.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1 + 4.3,Peer xóa box hand trên ảnh S## (hand chỉ gán ở ảnh D##)
+S02_ir.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1 + 4.3,Peer xóa box hand trên ảnh S## (hand chỉ gán ở ảnh D##)
+S02_rgb.png,face,glasses,khác giá trị (IoU=0.69),unknown,none,mine,4.1,Ảnh OMS: face chỉ cần box; peer đổi thuộc tính về mặc định (unknown/other)
+S02_rgb.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1 + 4.3,Peer xóa box hand trên ảnh S## (hand chỉ gán ở ảnh D##)
+S02_rgb.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1 + 4.3,Peer xóa box hand trên ảnh S## (hand chỉ gán ở ảnh D##)
+S03_ir.png,infant_seat,facing,khác giá trị (IoU=0.97),rear,front,peer,4.1 (infant_seat.facing),Lòng nôi hướng về camera = front. Mình đổi rear thành front (lỗi quên đổi giá trị mặc định)
+S03_rgb.png,infant_seat,facing,khác giá trị (IoU=1.00),rear,front,peer,4.1 (infant_seat.facing),Lòng nôi hướng về camera = front. Mình đổi rear thành front (lỗi quên đổi giá trị mặc định)
+S04_ir.png,person,seatbelt,khác giá trị (IoU=0.95),not_worn,unknown,mine,4.7,Trên ảnh IR-sim vẫn thấy rõ không có dây nên not_worn. Peer đổi unknown thành not_worn
+S04_ir.png,face,eye_left,khác giá trị (IoU=0.57),unknown,open,mine,4.1,Ảnh OMS: face chỉ cần box; peer đổi thuộc tính về mặc định (unknown/other)
+S04_ir.png,face,eye_right,khác giá trị (IoU=0.57),unknown,open,mine,4.1,Ảnh OMS: face chỉ cần box; peer đổi thuộc tính về mặc định (unknown/other)
+S04_ir.png,face,glasses,khác giá trị (IoU=0.57),unknown,none,mine,4.1,Ảnh OMS: face chỉ cần box; peer đổi thuộc tính về mặc định (unknown/other)
+S04_ir.png,infant_seat,facing,khác giá trị (IoU=0.98),rear,front,peer,4.1 (infant_seat.facing),Lòng nôi hướng về camera = front. Mình đổi rear thành front (lỗi quên đổi giá trị mặc định)
+S04_ir.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1 + 4.3,Peer xóa box hand trên ảnh S## (hand chỉ gán ở ảnh D##)
+S04_ir.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1 + 4.3,Peer xóa box hand trên ảnh S## (hand chỉ gán ở ảnh D##)
+S04_rgb.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2,Peer thiếu box person cho người ngồi rear_left ở S04_rgb (S04_ir peer có gán): peer thêm box
+S04_rgb.png,infant_seat,facing,khác giá trị (IoU=0.97),rear,front,peer,4.1 (infant_seat.facing),Lòng nôi hướng về camera = front. Mình đổi rear thành front (lỗi quên đổi giá trị mặc định)
+S04_rgb.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2,Peer thiếu box face cho người ngồi rear_left ở S04_rgb (S04_ir peer có gán): peer thêm box
+S05_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.2 + 4.8,"Ảnh IR thấy rõ cốc: mình thêm box object type=cup, seat theo xe"
+S05_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.4-1,"Trên ảnh RGB cốc nằm trong vùng tối, không nhìn thấy (đã thử tăng sáng): không vẽ. Không suy từ ảnh IR của cùng cảnh. Peer xóa box cup ở ảnh RGB"
+S06_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.2 + 4.8,"Ảnh IR thấy rõ cốc: mình thêm box object type=cup, seat theo xe"
+S06_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.2 + 4.8,"Ảnh RGB S06 vẫn thấy cốc: mình thêm box object type=cup, seat=rear_right"
+D04.png,object,box,cả hai cùng vẽ (diff không phát hiện),có,có,ambiguous,4.2,"Cả hai vẽ object cho chai trên tay. Guideline 4.2 ghi DMS không vẽ object, nhưng mình giữ nguyên và đưa vào câu hỏi leo thang 2 trong class_list_v0.md để hỏi coach"
+D06.png,object,box,cả hai cùng vẽ (diff không phát hiện),có,có,ambiguous,4.2,"Cả hai vẽ object cho chai trên tay. Guideline 4.2 ghi DMS không vẽ object, nhưng mình giữ nguyên và đưa vào câu hỏi leo thang 2 trong class_list_v0.md để hỏi coach"

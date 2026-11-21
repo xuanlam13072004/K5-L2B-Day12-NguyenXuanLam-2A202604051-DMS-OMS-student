@@ -1,0 +1,9 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+D04,real_IR,"Đốm phản xạ đèn LED hồng ngoại trên tròng kính cận che vùng mắt phải",eye_right,"Ghi unknown, không ghi closed vì không thấy mí"
+D01,real_IR,"Tròng kính cận bị lóa đèn LED làm khe mắt mờ, không phân biệt được mở hay nhắm",eye_left / eye_right + face13 (điểm mắt),"Ghi unknown cho cả hai mắt (không ghi closed); các điểm mắt bị lóa đánh cờ occluded/outside"
+D01,real_IR,"Trên ảnh NIR tròng kính trông trong suốt, không có màu để phân biệt kính cận hay kính râm",glasses,"Chọn clear vì nhìn xuyên được tròng thấy mắt; nếu không nhìn xuyên được thì chọn unknown"
+D01–D06,real_IR,"Camera NIR có đèn hồng ngoại chiếu riêng, nền tối không cho biết ban ngày hay ban đêm",light,"Ghi unknown (lúc đầu ghi night là đoán; đã sửa sau review chéo)"
+S04_ir,IR_sim,"Ảnh IR mô phỏng vẫn thấy rõ thân người và không có dây an toàn",seatbelt,"Giữ not_worn giống ảnh RGB; IR-sim không làm mất thông tin này"
+S01_ir,IR_sim,"Ảnh IR mô phỏng mất màu của túi và ghế, chỉ còn độ sáng",object.type,"Nhận loại đồ vật (bag) theo hình dạng, không theo màu; kết quả giống ảnh RGB"
+S05_ir,IR_sim,"Cốc trên ghế rear_left nằm trong vùng tối của ảnh RGB, không thấy; ảnh IR mô phỏng thấy rõ hình dạng cốc",object (cup),"Chỉ vẽ box object type=cup trên S05_ir; S05_rgb không vẽ vì không thấy (không suy từ ảnh IR)"
+S06_ir,IR_sim,"Cốc trên ghế rear_right thấy được trên cả ảnh RGB và ảnh IR mô phỏng (khác S05 chỉ IR thấy)",object (cup),"Vẽ box object type=cup trên cả S06_rgb và S06_ir"

@@ -1,0 +1,8 @@
+File: export_final_v2.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=8, face=10, face13=6, hand=12, infant_seat=10, object=15, person=10, phone=1
+Kết quả: 0 lỗi, 0 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Ghi chú:
+- Đây là bản sửa sau review chéo với Lê Quang Vinh (xem disagreement_log.csv). Đã sửa: S02_ir modality rgb -> ir; light night -> unknown ở D01–D06; infant_seat facing rear -> front ở S01, S03, S04 (rgb và ir); thêm cup ở S05_ir, S06_rgb, S06_ir; D01 glasses none -> clear; thu nhỏ box face D04, D06.
+- 0 lỗi nhờ script đã sửa theo coach để chấp nhận child_seat occupied=yes (cảnh S02).
+- D04, D06 còn box object (chai trên tay tài xế): biết guideline 4.2 ghi DMS không vẽ object, đang chờ coach quyết định (câu hỏi leo thang 2 trong class_list_v0.md).

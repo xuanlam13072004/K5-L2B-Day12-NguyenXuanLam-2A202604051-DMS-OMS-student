@@ -1,0 +1,7 @@
+File: export_final.zip · chỉ kiểm ảnh: S01, S02
+Ảnh: 4 · đã có frame_meta: 4 · số đối tượng: child_seat=4, face=2, infant_seat=2, object=2, person=2
+Kết quả: 0 lỗi, 0 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Ghi chú (trung thực): trong buổi mình không chạy Checkpoint A lúc 14:45. File này được tạo sau, từ export_final.zip (đã gán đủ 22 ảnh), chỉ kiểm phạm vi S01, S02 bằng --only.
+- Script đã sửa theo coach để chấp nhận child_seat occupied=yes (cảnh S02).
+- Lưu ý: script không kiểm modality theo tên file. Review chéo sau đó phát hiện S02_ir ghi modality=rgb (sai, phải là ir); đã sửa ở export_final_v2.zip.
